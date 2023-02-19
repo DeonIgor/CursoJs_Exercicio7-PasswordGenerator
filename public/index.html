@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Password Generator</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h3>Selecione os parâmetros para sua senha:</h3>
+        <div class="box-options">
+            <label><input type="checkbox" class="chk-maiusculas"> Letras Maiúsculas</label>
+            <label><input type="checkbox" class="chk-minusculas"> Letras Minusculas</label>
+            <label><input type="checkbox" class="chk-simbolos"> Simbolos</label>
+            <label><input type="checkbox" class="chk-digitos"> Dígitos</label>
+            <label>Numero de caracteres <input type="number" value="10" class="numCaracteres"></label>
+        </div>
+        <button class="generatePass-btt">Gerar Senha</button></br>
+        <input class="result" value="Sua senha aparecerá aqui" readonly></input>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --lighter-color: rgb(55, 140, 170);
+    --primary-color: rgb(15, 110, 140);
+    --secondary-color: rgb(10, 80, 100);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.box-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.generatePass-btt {
+    width: 100%;
+    height: 35px;
+    margin: 20px 0 10px 0;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    color: white;
+}
+
+.generatePass-btt:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.numCaracteres {
+    width: 40px;
+}
+
+.result {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--lighter-color);
+}
